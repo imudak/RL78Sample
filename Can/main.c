@@ -23,7 +23,7 @@ void fn_Init_CAN(void)
 
     //外付け水晶振動子 8MHz使用時----------
     CAN0EN = 1; //CANモジュールへクロックを供給
-    CAN0MCKE = 1; //CANモジュールへX1クロックを供給
+    //CAN0MCKE = 1; //CANモジュールへX1クロックを供給
     __nop();
 
     while ((GSTS & 0x0008) != 0) {
@@ -34,7 +34,8 @@ void fn_Init_CAN(void)
     C0CTRL &= 0xFFFB; //CSLPR=0 チャンネルストップモード⇒チャンネルリセットモードに変遷
     while ((C0STSL & 0x0004) != 0) {
     } //CANチャンネルリセットモードに変遷を確認
-    GCFGL = 0x0010; //DCS=1:fCAN=X1=8MHzに設定 DLC配置禁止とは?
+    //GCFGL = 0x0010; //DCS=1:fCAN=X1=8MHzに設定 DLC配置禁止とは?
+    GCFGL = 0x0000; //DCS=0:fCAN=fClk/2=16MHzに設定 DLC配置禁止とは?
     C0CFGH = 0x0049; //SJW=1 TSEG2=5 TSEG1=10  に設定 ボーレートプリスケラ(1)分周無しの場合
     C0CFGL = 0x0000; //C0CFGL+1で分周=ボーレートプリスケラ = fCAN_8Mhz/((0+1)×16Tq)= 500Kbps
 
