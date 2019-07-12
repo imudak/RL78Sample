@@ -36,7 +36,7 @@
       <Type>Category</Type>
       <ParentItem>192c2d8d-cea9-4690-b9a1-570de25eadf7</ParentItem>
     </Instance>
-    <Instance Guid="da49e42f-1589-41b6-b475-0868538e643a">
+    <Instance Guid="4f77f82e-f0de-4f6e-a048-336a918b5a15">
       <Name>main.c</Name>
       <Type>File</Type>
       <RelativePath>main.c</RelativePath>
@@ -161,6 +161,12 @@
       <MemoCount>0</MemoCount>
     </Instance>
   </Class>
+  <Class Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+    <Instance Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+      <ProjectDeviceChangedCounter>0</ProjectDeviceChangedCounter>
+      <ProjectInitialDeviceName>R5F10BLG</ProjectInitialDeviceName>
+    </Instance>
+  </Class>
   <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
     <Instance Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
       <BuildToolManager>1159186b-b838-4741-8324-8293bf3d5c5f</BuildToolManager>
@@ -175,11 +181,11 @@
       <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
       <SourceItemGuid0>3bcf3da4-684d-4425-bdbf-a5724cf27dc4</SourceItemGuid0>
       <SourceItemType0>AsmSource</SourceItemType0>
-      <SourceItemGuid1>2221005a-84c4-4195-9cce-2942199f3d27</SourceItemGuid1>
-      <SourceItemType1>CSource</SourceItemType1>
-      <SourceItemGuid2>cc22b2ef-57f4-447e-b684-68b1c0b4b83e</SourceItemGuid2>
-      <SourceItemType2>AsmSource</SourceItemType2>
-      <SourceItemGuid3>7bcdecd4-bd1b-44d2-9004-373c74b9dad1</SourceItemGuid3>
+      <SourceItemGuid1>cc22b2ef-57f4-447e-b684-68b1c0b4b83e</SourceItemGuid1>
+      <SourceItemType1>AsmSource</SourceItemType1>
+      <SourceItemGuid2>7bcdecd4-bd1b-44d2-9004-373c74b9dad1</SourceItemGuid2>
+      <SourceItemType2>CSource</SourceItemType2>
+      <SourceItemGuid3>2221005a-84c4-4195-9cce-2942199f3d27</SourceItemGuid3>
       <SourceItemType3>CSource</SourceItemType3>
       <SourceItemGuid4>894c7189-53e2-4354-8ced-6a069d9c76fa</SourceItemGuid4>
       <SourceItemType4>CSource</SourceItemType4>
@@ -193,7 +199,7 @@
       <SourceItemType8>CSource</SourceItemType8>
       <SourceItemGuid9>6d1a035a-bde3-4b9c-a0dc-0139d9a324f5</SourceItemGuid9>
       <SourceItemType9>CSource</SourceItemType9>
-      <SourceItemGuid10>da49e42f-1589-41b6-b475-0868538e643a</SourceItemGuid10>
+      <SourceItemGuid10>4f77f82e-f0de-4f6e-a048-336a918b5a15</SourceItemGuid10>
       <SourceItemType10>CSource</SourceItemType10>
       <SourceItemCount>11</SourceItemCount>
       <LastDeviceChangedCounter>0</LastDeviceChangedCounter>
@@ -551,7 +557,7 @@
       <LinkOptionShowCFI-DefaultValue>False</LinkOptionShowCFI-DefaultValue>
       <LinkOptionRrmValue-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8586386934340335265</TimeTagModified--0>
+      <TimeTagModified--0>-8586386870847906453</TimeTagModified--0>
       <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
       <LinkOptionCpu-0>False</LinkOptionCpu-0>
       <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
@@ -742,7 +748,7 @@
       <LibOptionChangeMessageError-DefaultValue>None</LibOptionChangeMessageError-DefaultValue>
       <LibOptionChangeMessageErrorNumber-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8586386934522865052</TimeTagModified--0>
+      <TimeTagModified--0>-8586386871179017695</TimeTagModified--0>
       <LibOptionDebug-0>Debug</LibOptionDebug-0>
       <LibOptionForm-0>LibraryU</LibOptionForm-0>
       <LibOptionInput-0 />
@@ -869,8 +875,8 @@
       <ItemAddTime>636985423679509983</ItemAddTime>
       <ItemAddTimeCount>2</ItemAddTimeCount>
     </Instance>
-    <Instance Guid="da49e42f-1589-41b6-b475-0868538e643a">
-      <ItemAddTime>636985426904991893</ItemAddTime>
+    <Instance Guid="4f77f82e-f0de-4f6e-a048-336a918b5a15">
+      <ItemAddTime>636985490181849065</ItemAddTime>
       <ItemAddTimeCount>0</ItemAddTimeCount>
     </Instance>
     <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
@@ -878,16 +884,16 @@
       <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
       <SourceItem0-BuildingTarget-0>True</SourceItem0-BuildingTarget-0>
       <SourceItem0-IndividualAssembleOption-0>False</SourceItem0-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem2--0>-8586386943721661922</TimeTagModified-SourceItem2--0>
-      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
-      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
-      <SourceItem2-IndividualAssembleOption-0>False</SourceItem2-IndividualAssembleOption-0>
-    </Instance>
-    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
-      <TimeTagModified-SourceItem1--0>-8586386940842903982</TimeTagModified-SourceItem1--0>
+      <TimeTagModified-SourceItem1--0>-8586386943721661922</TimeTagModified-SourceItem1--0>
       <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
       <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
-      <SourceItem1-IndividualCompileOption-0>False</SourceItem1-IndividualCompileOption-0>
+      <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
+    </Instance>
+    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
+      <TimeTagModified-SourceItem2--0>-8586386940842903982</TimeTagModified-SourceItem2--0>
+      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
+      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
+      <SourceItem2-IndividualCompileOption-0>False</SourceItem2-IndividualCompileOption-0>
       <TimeTagModified-SourceItem3--0>-8586386940842903982</TimeTagModified-SourceItem3--0>
       <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
       <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
@@ -916,7 +922,7 @@
       <SourceItem9-IsLockedByUser>False</SourceItem9-IsLockedByUser>
       <SourceItem9-BuildingTarget-0>True</SourceItem9-BuildingTarget-0>
       <SourceItem9-IndividualCompileOption-0>False</SourceItem9-IndividualCompileOption-0>
-      <TimeTagModified-SourceItem10--0>-8586386933949783915</TimeTagModified-SourceItem10--0>
+      <TimeTagModified-SourceItem10--0>-8586386870672926743</TimeTagModified-SourceItem10--0>
       <SourceItem10-IsLockedByUser>False</SourceItem10-IsLockedByUser>
       <SourceItem10-BuildingTarget-0>True</SourceItem10-BuildingTarget-0>
       <SourceItem10-IndividualCompileOption-0>False</SourceItem10-IndividualCompileOption-0>
@@ -1712,7 +1718,7 @@
       &lt;/Effect&gt;
     &lt;/fSL&gt;
     &lt;fPLL Name="fPLL" Value="24" Comment="24M" Trigger="fPLL" /&gt;
-    &lt;fRTC Name="fRTC" Value="65.5737704918033" Comment="15k" Trigger="fRTC"&gt;
+    &lt;fRTC Name="fRTC" Value="524.590163934426" Comment="15k" Trigger="fRTC"&gt;
       &lt;Effect&gt;
         &lt;RTC /&gt;
       &lt;/Effect&gt;
@@ -1888,7 +1894,7 @@
     &lt;/RTC1HZ&gt;
     &lt;RXD0 Name="RXD0" Text="disable" /&gt;
     &lt;ProjectName Name="PrjName" Text="RL78CanSample" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="N:\RL78CanSample" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="N:\RL78Sample\Can" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78F13" /&gt;
     &lt;MCUName Name="MCUName" Text="RL78F13_64pin" /&gt;
@@ -1921,6 +1927,8 @@
       &lt;/Effect&gt;
     &lt;/TRDCLKUSE1&gt;
     &lt;fMP Name="fMP" Value="64" /&gt;
+    &lt;TRDCLKTag Name="TRDCLKTag" Value="-1" /&gt;
+    &lt;TRDCLKUSE0 Name="TRDCLKUSE0" Value="0" /&gt;
     &lt;GroupName Name="GroupName" Text="groupc2" /&gt;
     &lt;CodePath Name="CodePath" Text=".\" /&gt;
     &lt;ReportType Name="ReportType" Text="Html" /&gt;
@@ -1940,8 +1948,6 @@
     &lt;HasHotRam Name="HasHotRam" Text="" /&gt;
     &lt;PrjVersion Name="PrjVersion" Text="1.2.0.1" /&gt;
     &lt;LinkFileName Name="LinkFileName" Text="" /&gt;
-    &lt;TRDCLKTag Name="TRDCLKTag" Value="-1" /&gt;
-    &lt;TRDCLKUSE0 Name="TRDCLKUSE0" Value="0" /&gt;
     &lt;TO02_PWM Name="TO02_PWM" Text="false" /&gt;
     &lt;TO03_PWM Name="TO03_PWM" Text="false" /&gt;
     &lt;Ch3UseTI03 Name="Ch3UseTI03" Text="false" /&gt;
@@ -2036,8 +2042,8 @@
         &lt;/Port9&gt;
         &lt;Port12 Chip="RL78F13_48pin,RL78F13_64pin"&gt;
           &lt;P120 Name="P120/ANI25/TI07/TO07/TRDIOD0/SO01/INTP4" Chip="R5F10AGF,R5F10AGG,R5F10ALF,R5F10ALG,R5F10BGC,R5F10BGD,R5F10BGE,R5F10BGF,R5F10BGG,R5F10BLC,R5F10BLD,R5F10BLE,R5F10BLF,R5F10BLG" DIN="true" Nch="true" Pullup="true" AltFunc="" Point="I/O" /&gt;
-          &lt;P121 Name="P121/X1" AltFunc="X1" Point="I" /&gt;
-          &lt;P122 Name="P122/X2/EXCLK" AltFunc="X2" Point="I" /&gt;
+          &lt;P121 Name="P121/X1" AltFunc="" Point="I" /&gt;
+          &lt;P122 Name="P122/X2/EXCLK" AltFunc="" Point="I" /&gt;
           &lt;P123 Name="P123/XT1" AltFunc="" Point="I" /&gt;
           &lt;P124 Name="P124/XT2/EXCLKS" AltFunc="" Point="I" /&gt;
           &lt;P125 Name="P125/ANI24/TI03/TO03/TRDIOB0/_SSI01/INTP1/SNZOUT1" Chip="R5F10AGF,R5F10AGG,R5F10ALF,R5F10ALG,R5F10BGC,R5F10BGD,R5F10BGE,R5F10BGF,R5F10BGG,R5F10BLC,R5F10BLD,R5F10BLE,R5F10BLF,R5F10BLG" DIN="true" TTL="true" PITHL="true" Pullup="true" AltFunc="" Point="I/O" /&gt;
@@ -3155,26 +3161,26 @@
       &lt;GlobleUserTag&gt;
         &lt;cg_security9 Name="cg_security9" Value="00" /&gt;
         &lt;cg_security7 Name="cg_security7" Value="00" /&gt;
-        &lt;pior_value4 Name="pior_value4" Value="00" /&gt;
+        &lt;pior_value7 Name="pior_value7" Value="00" /&gt;
+        &lt;pior_value1 Name="pior_value1" Value="00" /&gt;
         &lt;cg_security5 Name="cg_security5" Value="00" /&gt;
-        &lt;cg_crc_area Name="cg_crc_area" Value="00" /&gt;
         &lt;ocdstart Name="ocdstart" Value="1FE00" /&gt;
         &lt;cg_security3 Name="cg_security3" Value="00" /&gt;
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;pior_value5 Name="pior_value5" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
-        &lt;pior_value1 Name="pior_value1" Value="00" /&gt;
         &lt;wdt_option Name="wdt_option" Value="F9" /&gt;
         &lt;clock_option Name="clock_option" Value="F8" /&gt;
+        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="04" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
         &lt;cg_security6 Name="cg_security6" Value="00" /&gt;
         &lt;pior_value0 Name="pior_value0" Value="00" /&gt;
         &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
-        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
+        &lt;cg_crc_area Name="cg_crc_area" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
         &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
-        &lt;pior_value7 Name="pior_value7" Value="00" /&gt;
+        &lt;pior_value4 Name="pior_value4" Value="00" /&gt;
       &lt;/GlobleUserTag&gt;
     &lt;/TAG&gt;
   &lt;/DIR&gt;
@@ -3235,7 +3241,7 @@
       &lt;setting name="MAIN_CLOCK_SELECT_HIGH_INTERNAL_CLOCK" value="true" /&gt;
       &lt;setting name="INTERNAL_HIGH_CLOCK_OPERATION" value="true" /&gt;
       &lt;setting name="INTERNAL_HIGH_CLOCK_FREQUENCY" value="8" /&gt;
-      &lt;setting name="HIGH_SYSTEM_CLOCK_OPERATION" value="true" /&gt;
+      &lt;setting name="HIGH_SYSTEM_CLOCK_OPERATION" value="false" /&gt;
       &lt;setting name="HIGH_SYSTEM_CLOCK_SELECT_EXTERNAL_CLOCK" value="false" /&gt;
       &lt;setting name="HIGH_SYSTEM_CLOCK_SELECT_X1_CLOCK" value="true" /&gt;
       &lt;setting name="X1_CLOCK_STABLE_TIME" value="7" /&gt;
@@ -3389,6 +3395,11 @@
       <FormatVersion>1.0</FormatVersion>
       <ToolGUID>f8f4014c-61e9-408a-b507-660494243024</ToolGUID>
       <CodeGeneratorItem>8b8a2d6b-f83c-4e42-8892-d4e7b8368821</CodeGeneratorItem>
+    </Instance>
+  </Class>
+  <Class Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+    <Instance Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+      <ProductVersion>9.01.00.00</ProductVersion>
     </Instance>
   </Class>
 </CubeSuiteProject>

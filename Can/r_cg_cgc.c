@@ -55,24 +55,11 @@ Global variables and functions
 ***********************************************************************************************************************/
 void R_CGC_Create(void)
 {
-    uint8_t           temp_stab_set;
-    uint8_t           temp_stab_wait; 
-
     /* Set fSL */
     SELLOSC = 1U;
     /* Set fMX */
-    CMC = _40_CGC_HISYS_OSC | _00_CGC_SUB_PORT | _00_CGC_SYSOSC_UNDER10M | _00_CGC_SUBMODE_DEFAULT;
-    OSTS = _07_CGC_OSCSTAB_SEL18;
-    MSTOP = 0U;
-    temp_stab_set = _FF_CGC_OSCSTAB_STA18;
-
-    do
-    {
-        temp_stab_wait = OSTC;
-        temp_stab_wait &= temp_stab_set;
-    }
-    while (temp_stab_wait != temp_stab_set);
-
+    CMC = _00_CGC_HISYS_PORT | _00_CGC_SUB_PORT | _00_CGC_SYSOSC_DEFAULT | _00_CGC_SUBMODE_DEFAULT;
+    MSTOP = 1U;
     /* Set fMAIN */
     MCM0 = 0U;
     MDIV = _01_CGC_FMP_DIV_1;
@@ -85,7 +72,7 @@ void R_CGC_Create(void)
     /* Set fIH */
     HIOSTOP = 0U;
     /* Set RTC clock source */
-    RTCCL = _00_CGC_RTC_FMX | _42_CGC_RTC_DIV122;
+    RTCCL = _80_CGC_RTC_FIH | _42_CGC_RTC_DIV122;
     /* Set Timer RD clock source to fCLK, fMP */
     TRD_CKSEL = 0U;
 }
